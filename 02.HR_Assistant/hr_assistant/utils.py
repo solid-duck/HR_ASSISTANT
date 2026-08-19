@@ -21,8 +21,8 @@ class LLMHelper:
                 {
                     "role": "user",
                     "content": f"""
-                      Dato il seguente contesto individua il nome e cognome del candidato e ritorna solo il nome e cognome del candidato. Quello che sto per fornirti e' l'inizio del curriculum vitae del candidato: {context}
-                      """,
+                        Dato il seguente contesto individua il nome e cognome del candidato e ritorna solo il nome e cognome del candidato. Quello che sto per fornirti e' l'inizio del curriculum vitae del candidato: {context}
+                        """,
                 }
             ],
         )
